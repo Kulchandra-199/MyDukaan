@@ -1,0 +1,61 @@
+.container {
+    height: 328px;
+    background-color: #146EB4;
+}
+
+/* 
+@font-face {
+    font-family: Galano-regular;
+    src: url(../assets/fonts/galanogrotesque-regular.otf);
+}
+
+@font-face {
+    font-family: Galano-medium;
+    src: url(../assets/fonts/galanogrotesque-medium.otf);
+}
+
+@font-face {
+    font-family: Galano-semibold;
+    src: url(../assets/fonts/galanogrotesque-semibold.otf);
+} */
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 160px;
+    margin-left: 160px;
+    padding-top: 20px;
+
+}
+
+.logo {
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.buttons button {
+    background: none;
+    color: inherit;
+    border: none;
+    font-family: Galano-regular;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.buttons button:hover {
+    font-family: Galano-medium;
+    border-radius: 4px;
+    background: white;
+    color: #146EB4;
+    border: 0.5px hidden;
+}

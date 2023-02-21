@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Galano-regular;
+  src: url(./assets/fonts/galanogrotesque-regular.otf);
+}
+
+@font-face {
+  font-family: Galano-medium;
+  src: url(./assets/fonts/galanogrotesque-medium.otf);
+}
+
+@font-face {
+  font-family: Galano-semibold;
+  src: url(./assets/fonts/galanogrotesque-semibold.otf);
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  background: #FAFAFA;
+}
+
+.hero {
+  /* colors/black/100 */
+
+  background: #FFFFFF;
+  /* shadows/card */
+
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+  border-radius: 8px;
+  margin: 0px 160px 0px 160px;
+  top: -183px;
+  position: relative;
+
+}
+
+.generate_wrapper {
+  margin: 0px 192px 0px 192px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #D9D9D9;
+
+}
+
+.heading {
+  font-family: Galano-semibold;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 64px 0px 0px 0px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  margin: 16px 0px 0px 0px;
+  font-family: Galano-regular;
+  line-height: 28px;
+  width: 736px;
+  text-align: left;
+  color: #4D4D4D;
+}
+
+
+.slogan_input {
+  margin: 48px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.slogan_input label {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Galano-medium;
+  text-align: left;
+
+}
+
+.slogan_input input {
+  width: 352px;
+  height: 48px;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+}
+
+.generate_button {
+  margin: 48px 0px 60px 0px;
+
+
+  justify-content: center;
+
+
+  display: flex;
+}
+
+.generate_button button {
+  width: 204px;
+  height: 50px;
+  background: #146EB4;
+  border-radius: 4px;
+  text-align: center;
+  font-family: Galano-medium;
+  padding: 8px 24px;
+  color: white;
+  border: hidden;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+
+.main_heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 52px;
+}
+
+.main_headingtext {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Galano-medium;
+
+}
+
+.download_button {}
+
+.download_button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 137px;
+  height: 36px;
+  color: #146EB4;
+  background-color: none;
+  font-family: Galano-medium;
+  border: 1px solid #146EB4;
+  border-radius: 4px;
+}
+
+.outputs_wrapper {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  gap: 32px;
+  flex-wrap: wrap;
+
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 48px;
+}
+
+.output {
+  width: 352px;
+  height: 60px;
+  border: hidden;
+  background: #F2F2F2;
+  border-radius: 4px;
+
+
+}
+
+.pagination {
+  font-family: Galano-regular;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  font-family: Galano-regular;
+  align-items: center;
+  text-align: left;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 16px;
+
+}

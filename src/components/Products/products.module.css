@@ -1,0 +1,42 @@
+.wrapper {
+    margin: 0px 160px 0px 160px;
+}
+
+.heading {
+    text-align: left;
+    font-weight: 600;
+    font-size: 36px;
+    font-family: Galano-medium;
+
+}
+
+.cards {
+
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+.card {
+    width: 352px;
+    margin-bottom: 32px;
+}
+
+.title {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Galano-medium;
+    color: #1A181E;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.desc {
+    text-align: left;
+    font-family: Galano-regular;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4D4D4D;
+}
